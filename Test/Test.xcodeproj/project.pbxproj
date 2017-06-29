@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5BFAD21F056B23000E2AC3 /* TestOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BFAC91F056B22000E2AC3 /* TestOne.framework */; };
+		FE5BFAD91F056B23000E2AC3 /* TestOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5BFAD81F056B23000E2AC3 /* TestOneTests.m */; };
+		FE5BFADB1F056B23000E2AC3 /* TestOne.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5BFACB1F056B23000E2AC3 /* TestOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5BFADE1F056B23000E2AC3 /* TestOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BFAC91F056B22000E2AC3 /* TestOne.framework */; };
+		FE5BFADF1F056B23000E2AC3 /* TestOne.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BFAC91F056B22000E2AC3 /* TestOne.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE5BFAE81F056B5F000E2AC3 /* People.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5BFAE61F056B5F000E2AC3 /* People.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5BFAE91F056B5F000E2AC3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5BFAE71F056B5F000E2AC3 /* People.m */; };
 		FE5E80FF1F055F6600EA3645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E80FE1F055F6600EA3645 /* main.m */; };
 		FE5E81021F055F6600EA3645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E81011F055F6600EA3645 /* AppDelegate.m */; };
 		FE5E81051F055F6600EA3645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E81041F055F6600EA3645 /* ViewController.m */; };
@@ -18,6 +25,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FE5BFAD31F056B23000E2AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5E80F21F055F6500EA3645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5BFAC81F056B22000E2AC3;
+			remoteInfo = TestOne;
+		};
+		FE5BFAD51F056B23000E2AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5E80F21F055F6500EA3645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5E80F91F055F6600EA3645;
+			remoteInfo = Test;
+		};
+		FE5BFADC1F056B23000E2AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5E80F21F055F6500EA3645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5BFAC81F056B22000E2AC3;
+			remoteInfo = TestOne;
+		};
 		FE5E81141F055F6600EA3645 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE5E80F21F055F6500EA3645 /* Project object */;
@@ -32,9 +60,38 @@
 			remoteGlobalIDString = FE5E80F91F055F6600EA3645;
 			remoteInfo = Test;
 		};
+		FE5E81461F05605800EA3645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5E80F21F055F6500EA3645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5E80F91F055F6600EA3645;
+			remoteInfo = Test;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FE5E81541F05605800EA3645 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE5BFADF1F056B23000E2AC3 /* TestOne.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FE5BFAC91F056B22000E2AC3 /* TestOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5BFACB1F056B23000E2AC3 /* TestOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOne.h; sourceTree = "<group>"; };
+		FE5BFACC1F056B23000E2AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5BFAD11F056B23000E2AC3 /* TestOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5BFAD81F056B23000E2AC3 /* TestOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOneTests.m; sourceTree = "<group>"; };
+		FE5BFADA1F056B23000E2AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5BFAE61F056B5F000E2AC3 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		FE5BFAE71F056B5F000E2AC3 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		FE5E80FA1F055F6600EA3645 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5E80FE1F055F6600EA3645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE5E81001F055F6600EA3645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,13 +108,30 @@
 		FE5E811E1F055F6600EA3645 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5E81221F055F6600EA3645 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		FE5E81241F055F6600EA3645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5E81421F05605800EA3645 /* CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FE5BFAC51F056B22000E2AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BFACE1F056B23000E2AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5BFAD21F056B23000E2AC3 /* TestOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE5E80F71F055F6600EA3645 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5BFADE1F056B23000E2AC3 /* TestOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,15 +149,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE5E813F1F05605800EA3645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5BFACA1F056B23000E2AC3 /* TestOne */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BFACB1F056B23000E2AC3 /* TestOne.h */,
+				FE5BFACC1F056B23000E2AC3 /* Info.plist */,
+				FE5BFAE61F056B5F000E2AC3 /* People.h */,
+				FE5BFAE71F056B5F000E2AC3 /* People.m */,
+			);
+			path = TestOne;
+			sourceTree = "<group>";
+		};
+		FE5BFAD71F056B23000E2AC3 /* TestOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BFAD81F056B23000E2AC3 /* TestOneTests.m */,
+				FE5BFADA1F056B23000E2AC3 /* Info.plist */,
+			);
+			path = TestOneTests;
+			sourceTree = "<group>";
+		};
 		FE5E80F11F055F6500EA3645 = {
 			isa = PBXGroup;
 			children = (
 				FE5E80FC1F055F6600EA3645 /* Test */,
 				FE5E81161F055F6600EA3645 /* TestTests */,
 				FE5E81211F055F6600EA3645 /* TestUITests */,
+				FE5BFACA1F056B23000E2AC3 /* TestOne */,
+				FE5BFAD71F056B23000E2AC3 /* TestOneTests */,
 				FE5E80FB1F055F6600EA3645 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +197,9 @@
 				FE5E80FA1F055F6600EA3645 /* Test.app */,
 				FE5E81131F055F6600EA3645 /* TestTests.xctest */,
 				FE5E811E1F055F6600EA3645 /* TestUITests.xctest */,
+				FE5E81421F05605800EA3645 /* CategoryTests.xctest */,
+				FE5BFAC91F056B22000E2AC3 /* TestOne.framework */,
+				FE5BFAD11F056B23000E2AC3 /* TestOneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +248,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FE5BFAC61F056B22000E2AC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5BFADB1F056B23000E2AC3 /* TestOne.h in Headers */,
+				FE5BFAE81F056B5F000E2AC3 /* People.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		FE5BFAC81F056B22000E2AC3 /* TestOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5BFAE01F056B23000E2AC3 /* Build configuration list for PBXNativeTarget "TestOne" */;
+			buildPhases = (
+				FE5BFAC41F056B22000E2AC3 /* Sources */,
+				FE5BFAC51F056B22000E2AC3 /* Frameworks */,
+				FE5BFAC61F056B22000E2AC3 /* Headers */,
+				FE5BFAC71F056B22000E2AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOne;
+			productName = TestOne;
+			productReference = FE5BFAC91F056B22000E2AC3 /* TestOne.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE5BFAD01F056B23000E2AC3 /* TestOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5BFAE31F056B23000E2AC3 /* Build configuration list for PBXNativeTarget "TestOneTests" */;
+			buildPhases = (
+				FE5BFACD1F056B23000E2AC3 /* Sources */,
+				FE5BFACE1F056B23000E2AC3 /* Frameworks */,
+				FE5BFACF1F056B23000E2AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5BFAD41F056B23000E2AC3 /* PBXTargetDependency */,
+				FE5BFAD61F056B23000E2AC3 /* PBXTargetDependency */,
+			);
+			name = TestOneTests;
+			productName = TestOneTests;
+			productReference = FE5BFAD11F056B23000E2AC3 /* TestOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FE5E80F91F055F6600EA3645 /* Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE5E81271F055F6600EA3645 /* Build configuration list for PBXNativeTarget "Test" */;
@@ -150,10 +305,12 @@
 				FE5E80F61F055F6600EA3645 /* Sources */,
 				FE5E80F71F055F6600EA3645 /* Frameworks */,
 				FE5E80F81F055F6600EA3645 /* Resources */,
+				FE5E81541F05605800EA3645 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FE5BFADD1F056B23000E2AC3 /* PBXTargetDependency */,
 			);
 			name = Test;
 			productName = Test;
@@ -196,6 +353,24 @@
 			productReference = FE5E811E1F055F6600EA3645 /* TestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FE5E81411F05605800EA3645 /* CategoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5E81551F05605800EA3645 /* Build configuration list for PBXNativeTarget "CategoryTests" */;
+			buildPhases = (
+				FE5E813E1F05605800EA3645 /* Sources */,
+				FE5E813F1F05605800EA3645 /* Frameworks */,
+				FE5E81401F05605800EA3645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5E81471F05605800EA3645 /* PBXTargetDependency */,
+			);
+			name = CategoryTests;
+			productName = CategoryTests;
+			productReference = FE5E81421F05605800EA3645 /* CategoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +380,15 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "河南东京Web俱乐部";
 				TargetAttributes = {
+					FE5BFAC81F056B22000E2AC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FE5BFAD01F056B23000E2AC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE5E80F91F055F6600EA3645;
+					};
 					FE5E80F91F055F6600EA3645 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -215,6 +399,11 @@
 						TestTargetID = FE5E80F91F055F6600EA3645;
 					};
 					FE5E811D1F055F6600EA3645 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE5E80F91F055F6600EA3645;
+					};
+					FE5E81411F05605800EA3645 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FE5E80F91F055F6600EA3645;
@@ -237,11 +426,28 @@
 				FE5E80F91F055F6600EA3645 /* Test */,
 				FE5E81121F055F6600EA3645 /* TestTests */,
 				FE5E811D1F055F6600EA3645 /* TestUITests */,
+				FE5E81411F05605800EA3645 /* CategoryTests */,
+				FE5BFAC81F056B22000E2AC3 /* TestOne */,
+				FE5BFAD01F056B23000E2AC3 /* TestOneTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FE5BFAC71F056B22000E2AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BFACF1F056B23000E2AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE5E80F81F055F6600EA3645 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,9 +472,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE5E81401F05605800EA3645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FE5BFAC41F056B22000E2AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5BFAE91F056B5F000E2AC3 /* People.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5BFACD1F056B23000E2AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5BFAD91F056B23000E2AC3 /* TestOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE5E80F61F055F6600EA3645 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,9 +524,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE5E813E1F05605800EA3645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FE5BFAD41F056B23000E2AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5BFAC81F056B22000E2AC3 /* TestOne */;
+			targetProxy = FE5BFAD31F056B23000E2AC3 /* PBXContainerItemProxy */;
+		};
+		FE5BFAD61F056B23000E2AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5E80F91F055F6600EA3645 /* Test */;
+			targetProxy = FE5BFAD51F056B23000E2AC3 /* PBXContainerItemProxy */;
+		};
+		FE5BFADD1F056B23000E2AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5BFAC81F056B22000E2AC3 /* TestOne */;
+			targetProxy = FE5BFADC1F056B23000E2AC3 /* PBXContainerItemProxy */;
+		};
 		FE5E81151F055F6600EA3645 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE5E80F91F055F6600EA3645 /* Test */;
@@ -307,6 +558,11 @@
 			isa = PBXTargetDependency;
 			target = FE5E80F91F055F6600EA3645 /* Test */;
 			targetProxy = FE5E811F1F055F6600EA3645 /* PBXContainerItemProxy */;
+		};
+		FE5E81471F05605800EA3645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5E80F91F055F6600EA3645 /* Test */;
+			targetProxy = FE5E81461F05605800EA3645 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,6 +586,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FE5BFAE11F056B23000E2AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.TestOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE5BFAE21F056B23000E2AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.TestOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE5BFAE41F056B23000E2AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.TestOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Debug;
+		};
+		FE5BFAE51F056B23000E2AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.TestOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Release;
+		};
 		FE5E81251F055F6600EA3645 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,7 +746,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.Test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,7 +757,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.Test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -490,9 +808,47 @@
 			};
 			name = Release;
 		};
+		FE5E81561F05605800EA3645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CategoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Debug;
+		};
+		FE5E81571F05605800EA3645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CategoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE5BFAE01F056B23000E2AC3 /* Build configuration list for PBXNativeTarget "TestOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BFAE11F056B23000E2AC3 /* Debug */,
+				FE5BFAE21F056B23000E2AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE5BFAE31F056B23000E2AC3 /* Build configuration list for PBXNativeTarget "TestOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BFAE41F056B23000E2AC3 /* Debug */,
+				FE5BFAE51F056B23000E2AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FE5E80F51F055F6500EA3645 /* Build configuration list for PBXProject "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -509,6 +865,7 @@
 				FE5E81291F055F6600EA3645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE5E812A1F055F6600EA3645 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +874,7 @@
 				FE5E812C1F055F6600EA3645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE5E812D1F055F6600EA3645 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +883,16 @@
 				FE5E812F1F055F6600EA3645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5E81551F05605800EA3645 /* Build configuration list for PBXNativeTarget "CategoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5E81561F05605800EA3645 /* Debug */,
+				FE5E81571F05605800EA3645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

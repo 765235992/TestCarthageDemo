@@ -9,5 +9,9 @@
 #import "DJPeople.h"
 
 @implementation DJPeople
++ (void)eat
+{
+    NSLog(@"我要吃饭了");
+}
 
 @end

@@ -9,5 +9,9 @@
 #import "People.h"
 
 @implementation People
++ (void)eat
+{
+    NSLog(@"习惯好吃");
+}
 
 @end

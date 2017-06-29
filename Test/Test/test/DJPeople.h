@@ -10,4 +10,6 @@
 
 @interface DJPeople : NSObject
 
+
++ (void)eat;
 @end
