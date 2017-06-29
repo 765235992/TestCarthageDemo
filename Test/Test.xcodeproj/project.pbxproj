@@ -14,6 +14,7 @@
 		FE5BFB0A1F057578000E2AC3 /* TestTwo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BFAF41F057578000E2AC3 /* TestTwo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FE5BFB111F05759B000E2AC3 /* People.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5BFAEB1F057550000E2AC3 /* People.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE5BFB121F0575A1000E2AC3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5BFAEC1F057550000E2AC3 /* People.m */; };
+		FE5BFB191F0579F1000E2AC3 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5BFAEE1F057564000E2AC3 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE5E80FF1F055F6600EA3645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E80FE1F055F6600EA3645 /* main.m */; };
 		FE5E81021F055F6600EA3645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E81011F055F6600EA3645 /* AppDelegate.m */; };
 		FE5E81051F055F6600EA3645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E81041F055F6600EA3645 /* ViewController.m */; };
@@ -278,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE5BFB111F05759B000E2AC3 /* People.h in Headers */,
+				FE5BFB191F0579F1000E2AC3 /* Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,6 +942,7 @@
 				FE5BFB0D1F057578000E2AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE5BFB0E1F057578000E2AC3 /* Build configuration list for PBXNativeTarget "FrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -948,6 +951,7 @@
 				FE5BFB101F057578000E2AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE5E80F51F055F6500EA3645 /* Build configuration list for PBXProject "Test" */ = {
 			isa = XCConfigurationList;

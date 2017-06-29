@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE5BFAF31F057578000E2AC3"
-               BuildableName = "FrameWork.framework"
+               BuildableName = "TestTwo.framework"
                BlueprintName = "FrameWork"
                ReferencedContainer = "container:Test.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE5BFAF31F057578000E2AC3"
-            BuildableName = "FrameWork.framework"
+            BuildableName = "TestTwo.framework"
             BlueprintName = "FrameWork"
             ReferencedContainer = "container:Test.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE5BFAF31F057578000E2AC3"
-            BuildableName = "FrameWork.framework"
+            BuildableName = "TestTwo.framework"
             BlueprintName = "FrameWork"
             ReferencedContainer = "container:Test.xcodeproj">
          </BuildableReference>
