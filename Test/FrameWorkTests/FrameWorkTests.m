@@ -1,6 +1,6 @@
 //
-//  TestOneTests.m
-//  TestOneTests
+//  FrameWorkTests.m
+//  FrameWorkTests
 //
 //  Created by Jone on 2017/6/30.
 //  Copyright © 2017年 河南东京Web俱乐部. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TestOneTests : XCTestCase
+@interface FrameWorkTests : XCTestCase
 
 @end
 
-@implementation TestOneTests
+@implementation FrameWorkTests
 
 - (void)setUp {
     [super setUp];
